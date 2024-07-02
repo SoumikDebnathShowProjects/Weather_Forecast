@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/d1b7feb490.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="card">
+    <div class="search">
+        <input type="text" value="enter city name" spellcheck="false">
+        <button><i class="fa-solid fa-magnifying-glass" style="color:blue;"></i></button>
+    </div>
+    <div class="forecast">
+        <img src="Resources/images/clouds.png" class="weather-icon">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Siliguri</h2>
+        <div class="details">
+            <!-- Humidity info details -->
+            <div class="col">
+                <img src="Resources/images/humidity.png" alt="error">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+    
+    
+                </div>
+            </div>
+            <!-- wind info details  -->
+            <div class="col">
+                <img src="Resources/images/wind.png" alt="error">
+                <div>
+                    <p class="wind">15 km//hr</p>
+                    <p>Wind Speed</p>
+                    
+    
+             </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
+<!-- https://api.openweathermap.org/data/2.5/weather?q=Siliguri&appid=77004faa49cb81065a7e1511ef1d2546 -->
