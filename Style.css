@@ -80,3 +80,6 @@ body{
     margin-top: -6px;
 
 }
+.forecast{
+    display: none;
+}
